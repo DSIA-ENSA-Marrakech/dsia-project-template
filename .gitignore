@@ -1,0 +1,27 @@
+# Environnements virtuels Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Données lourdes et modèles entraînés (éviter de saturer Git)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.json
+data/processed/*.csv
+*.pkl
+*.h5
+*.pt
+
+# Secrets et variables d'environnement (Clés API)
+.env
+.streamlit/secrets.toml
+
+# Fichiers système et IDE
+.DS_Store
+.vscode/
+.idea/
